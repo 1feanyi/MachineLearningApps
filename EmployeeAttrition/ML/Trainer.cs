@@ -17,11 +17,13 @@ namespace EmployeeAttrition.ML
                 return;
             }
 
+            // Typecast training data file to "EmploymentHistory" object
             var trainingDataView = mlContext.Data.LoadFromTextFile<EmploymentHistory>(trainingFileName, ',');
             
             var dataSplit = mlContext.Data.TrainTestSplit(trainingDataView, testFraction: 0.2);
 
-            var dataProcessPipeline = mlContext.Transforms.CopyColumns("Label", nameof(EmploymentHistory.DurationInMonths))
+            var dataProcessPipeline = mlContext.Transforms
+                .CopyColumns("Label", nameof(EmploymentHistory.DurationInMonths))
                 .Append(mlContext.Transforms.NormalizeMeanVariance(nameof(EmploymentHistory.IsMarried)))
                 .Append(mlContext.Transforms.NormalizeMeanVariance(nameof(EmploymentHistory.BSDegree)))
                 .Append(mlContext.Transforms.NormalizeMeanVariance(nameof(EmploymentHistory.MSDegree)))
