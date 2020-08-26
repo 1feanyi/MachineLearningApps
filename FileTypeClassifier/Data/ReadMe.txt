@@ -1,0 +1,1 @@
+Place different types of files in the folders in the "Extract" folder

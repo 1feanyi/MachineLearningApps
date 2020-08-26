@@ -15,15 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeSeries", "TimeSeries\Ti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnomalyDetection", "AnomalyDetection\AnomalyDetection.csproj", "{98ED312F-CC59-49E1-B4BC-B0BE8D895615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantReview", "RestaurantReview\RestaurantReview.csproj", "{A4B45B6A-5AF6-4769-BCF5-C793FAD38F52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantReview", "RestaurantReview\RestaurantReview.csproj", "{A4B45B6A-5AF6-4769-BCF5-C793FAD38F52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAttrition", "EmployeeAttrition\EmployeeAttrition.csproj", "{79D0D7EA-D7C1-4740-AEFA-1E8E9C08DB84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeAttrition", "EmployeeAttrition\EmployeeAttrition.csproj", "{79D0D7EA-D7C1-4740-AEFA-1E8E9C08DB84}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileClassifier", "FileClassifier\FileClassifier.csproj", "{B81B09DB-C6BE-48BE-85C7-EFE342E9A2B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarValuePredictor", "CarValuePredictor\CarValuePredictor.csproj", "{DCD6F5E3-04BC-4F46-B1E3-80E38BB51EE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarValuePredictor", "CarValuePredictor\CarValuePredictor.csproj", "{DCD6F5E3-04BC-4F46-B1E3-80E38BB51EE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailCategorizer", "EmailCategorizer\EmailCategorizer.csproj", "{1CBA0633-4BAD-47BD-AEC4-2F623967B1AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailCategorizer", "EmailCategorizer\EmailCategorizer.csproj", "{1CBA0633-4BAD-47BD-AEC4-2F623967B1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTypeClassifier", "FileTypeClassifier\FileTypeClassifier.csproj", "{FDB87557-9E41-48F7-85BE-D5D4D607F2AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{1CBA0633-4BAD-47BD-AEC4-2F623967B1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CBA0633-4BAD-47BD-AEC4-2F623967B1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CBA0633-4BAD-47BD-AEC4-2F623967B1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB87557-9E41-48F7-85BE-D5D4D607F2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB87557-9E41-48F7-85BE-D5D4D607F2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB87557-9E41-48F7-85BE-D5D4D607F2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB87557-9E41-48F7-85BE-D5D4D607F2AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
